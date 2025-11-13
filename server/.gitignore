@@ -1,0 +1,4 @@
+server/node_modules/
+server/node_modules/.cache/
+.env
+node_modules/s

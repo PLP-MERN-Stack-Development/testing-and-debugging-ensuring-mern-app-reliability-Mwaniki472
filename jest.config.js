@@ -1,4 +1,10 @@
-// jest.config.js - Root Jest configuration file
+
+// Jest configuration for a MERN stack application with separate settings for server-side and client-side tests
+export default {
+  testEnvironment: "node",
+  transform: {}, // Disable Babel transform (Jest supports ESM natively with Node >=18)
+  verbose: true,
+};
 
 module.exports = {
   // Base configuration for all tests
